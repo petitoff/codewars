@@ -1,5 +1,4 @@
 function decodeMorse(morseCode) {
-  console.log(morseCode);
   let ref = {
     ".-": "a",
     "-...": "b",
@@ -55,10 +54,9 @@ function decodeMorse(morseCode) {
       }
       if (i !== codeArray.length - 1) decode += " ";
     }
-    // return decode;
   }
 
   return decode == undefined ? "" : decode.toUpperCase();
 }
 
-console.log(decodeMorse("   .   . "));
+console.log(decodeMorse("   .   . ")); // Test morse code
