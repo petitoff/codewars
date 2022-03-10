@@ -1,20 +1,14 @@
-function rowSumOddNumbers(n) {
-  let numberodd = 1;
-  const arrowOdd = [];
-
-  for (let i = 1; i <= n; i++) {
-    for (let j = 1; j <= i; j++) {
-      if (i > 1) numberodd += 2;
-      if (i === n) arrowOdd.push(numberodd);
-    }
-  }
-  return arrowOdd.reduce(function (a, b) {
-    return a + b;
-  }, 0);
+function comp(a, b) {
+  return (
+    !!a &&
+    !!b &&
+    a
+      .map((x) => x * x)
+      .sort()
+      .join() == b.sort().join()
+  );
 }
 
-function moreSmart(n) {
-  return n ** 3;
-}
-
-console.log(rowSumOddNumbers(3));
+a1 = [121, 144, 19, 161, 19, 144, 19, 11];
+a2 = [121, 14641, 20736, 36100, 25921, 361, 20736, 361];
+console.log(comp(a1, a2));
