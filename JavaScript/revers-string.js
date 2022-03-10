@@ -1,5 +1,5 @@
+// https://www.codewars.com/kata/569d488d61b812a0f7000015
 function spinWords(string) {
-  //TODO Have fun :)
   const stringArray = string.split(/\b(\s)/); // string to array
   const reverseStringArray = [];
 
@@ -14,9 +14,6 @@ function spinWords(string) {
       reverseStringArray.push(stringArray[i]);
     }
   }
-  // Only for testing...
-  //   console.log(stringArray);
-  //   console.log(reverseStringArray);
 
   return reverseStringArray.join(" ");
 }
