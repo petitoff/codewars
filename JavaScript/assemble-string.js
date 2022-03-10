@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/550498447451fbbd7600041c
 function assembleString(array) {
   if (typeof array === "undefined" || !array.length > 0) return "";
   let stringArray = array[0];
