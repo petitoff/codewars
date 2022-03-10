@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/558fc85d8fd1938afb000014
 function sumTwoSmallestNumbers(numbers) {
   console.log(numbers);
   numbers = numbers.sort(function (a, b) {
