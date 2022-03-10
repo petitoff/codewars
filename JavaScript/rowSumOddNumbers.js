@@ -13,4 +13,8 @@ function rowSumOddNumbers(n) {
   }, 0);
 }
 
-console.log(makeLine(3));
+function moreSmart(n) {
+  return n ** 3;
+}
+
+console.log(rowSumOddNumbers(3));
