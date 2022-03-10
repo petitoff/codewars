@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/554b4ac871d6813a03000035
 function highAndLow(numbers) {
   const numbersArray = numbers.split(" ").map(Number);
   let min = numbersArray[0];
