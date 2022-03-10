@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/5596f6e9529e9ab6fb000014
 function shiftedDiff(first, second) {
   console.log(first, second);
   if (first === second) {
