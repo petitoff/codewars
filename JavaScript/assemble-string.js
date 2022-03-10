@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/550498447451fbbd7600041c
+// https://www.codewars.com/kata/6210fb7aabf047000f3a3ad6
 function assembleString(array) {
   if (typeof array === "undefined" || !array.length > 0) return "";
   let stringArray = array[0];
