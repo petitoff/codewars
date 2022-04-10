@@ -31,12 +31,11 @@ function sumNumbers(s) {
 function orderWeight(strng) {
   s = strng.split(" ");
 
-  s = s
+  return s
     .sort(function (a, b) {
       return sumNumbers(a) - sumNumbers(b) || a > b || -(a < b);
     })
     .join(" ");
-  return s;
 }
 
 console.log(orderWeight("56 65 74 100 99 68 86 180 90"));
