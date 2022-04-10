@@ -1,4 +1,6 @@
 # Codewars
+[![Profile badge](https://www.codewars.com/users/petitoff/badges/large)](https://www.codewars.com/users/petitoff/)
+
 It is a repository containing the code of the subtitles in the course of solving the algorithmic tasks on the website.
 <br/>Link to the profile: https://www.codewars.com/users/petitoff
 
